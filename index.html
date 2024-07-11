@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="award">AWARD WINNING</h1>
+            <h2 class="title">DIGITAL MARKETING AGENCY</h2>
+            <p class="description">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+            <button class="contact-button" onclick="openForm()">CONTACT US</button>
+        </div>
+        <div class="image">
+            <img src="./images/female-img-page1.png" alt="Agency Image">
+        </div>
+    </div>
+
+    <div id="popupForm" class="popup-form">
+        <div class="form-container">
+            <form class="form-content" action="https://getform.io/f/bxojoyza" method="POST">
+                <div class="popup-title">
+                    <h2>Talk to us</h2>
+                    <div class="close" onclick="closeForm()">&times;</div>
+                </div>   
+                <div class="email-input">
+                    <input type="email" id="email" name="email" placeholder="Work email*" required>
+                </div>
+                <div class="name-input">
+                    <input type="text" id="fname" name="firstname" placeholder="First name*" required>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name*" required>
+                </div>
+                <div class="terms-popup">
+                    <span class="checkbox-popup">
+                        <input type="checkbox" class="styled-checkbox" id="terms" name="terms" required>
+                    </span>
+                    <div class="terms-text" >I agree to the terms and conditions, and provide consent to send me communication.</div>
+                </div>
+                <button type="submit">CONTACT US</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <div class="services-slider">
+        <div class="slider-header">
+        <div class="slider-title">
+        <h2>WHAT WE DO</h2>
+        <h1>SERVICES PROVIDE FOR YOU</h3>
+        </div>
+        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src="https://plus.unsplash.com/premium_photo-1681412205320-c4d8d51dc7eb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 1">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src="https://images.unsplash.com/photo-1717163058985-8753615120b5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 2">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1716922079716-20fd0d1c9092?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 3">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1714138665648-51e914cbaaab?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 4">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1711141731900-cf32bf6f94f4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 5">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1697275021983-6415611fd801?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1716319485866-45dd846ed95c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1716913888282-c66f67e01efb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1716718405882-5d80d89ea24e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1513171920216-2640b288471b?q=80&w=1709&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="slide-content" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                    <img src=" https://images.unsplash.com/photo-1492825096379-512304e87743?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service 6">
+                    <div class="overlay">
+                        <img src="./images/web-dev-icon.png" alt="webdevelopment icon">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesqueque.</p>
+                        <a href="https://fylehq.com" target="_blank">Read More <i class="fa fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+
+
+
+
+    <div class="why-chooseUS-section">
+        <h2>WHY CHOOSE US</h2>
+        <h1>WHY WE ARE BEST</h1>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-bullseye"></i>
+                <h3>Clarified Vision & Target</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-tachometer-alt"></i>
+                <h3>High Performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Maintain Security</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Better Strategy & Quality</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="ourproject-container">
+        <div class="ourproject-header">
+            <h3>OUR PROJECT</h3>
+            <h1>WHY WE ARE BEST</h1>
+        </div>
+        <div class="ourproject">
+        <div class="ourproject-image-container">
+            <img id="image1" src="https://images.unsplash.com/photo-1571327352610-1c5484ccc840?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 1" class="active">
+            <img id="image2" src="./images/ourproject-img2.png" alt="Image 2">
+            <img id="image3" src="https://images.unsplash.com/photo-1551215717-8bc8cfe833ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 3">
+        </div>
+        <div class="ourproject-content">
+            <div data-image="image1" class="active">
+               <b> Genderless Kei - Japan's Hot</b>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+            </div>
+            <div data-image="image2">
+               <b> Better Strategy & Quality</b>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+            </div>
+            <div data-image="image3">
+                <b>Genderless Kei - Japan's Hot</b>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="growth-section">
+        <h2>EXPERTS GROWTH</h2>
+        <h1>OUR COMPANY GROWTH</h1>
+        <div class="stats">
+            <div class="stat">
+                <i class="fas fa-heart"></i>
+                <h3 class="count" data-target="199">0</h3>
+                <p>Statified Customers</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-clock"></i>
+                <h3 class="count" data-target="1591">0</h3>
+                <p>Days Of Operation</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-check-circle"></i>
+                <h3 class="count" data-target="283">0</h3>
+                <p>Complete Project</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-trophy"></i>
+                <h3 class="count" data-target="75">0</h3>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="feedback-section">
+        <div class="feedback-header">
+            <h2>CLIENT'S FEEDBACK</h2>
+            <h1>PEOPLE SAY'S ABOUT US !</h1>
+        </div>
+        <div class="feedback-content">
+            <blockquote>
+                <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                <div><span>Jannat Tumpa </span>– COO, Amerimar Enterprises, Inc.</div>
+            </blockquote>
+        </div>
+    </div>
+    <footer class="logos">
+        <img src="./images/Harrison Industry Co..png" alt="Harrison Industry Co.">
+        <img src="./images/Design Studio.png" alt="Design Studio">
+        <img src="./images/Design Exclusive.png" alt="Design Exclusive">
+        <img src="./images/Fort Dexon.png" alt="Fort Dexon">
+        <img src="./images/Barbecue.png" alt="Barbecue">
+        <img src="./images/Caley Peace.png" alt="Caley Peace">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
